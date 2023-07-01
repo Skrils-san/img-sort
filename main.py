@@ -71,7 +71,7 @@ for i in range(totalFiles):
             os.remove("ffmpeg-output/Image0.jpg")
             de = 0
     else:
-        print("WRONG FILE FORMAT DETACTED!\nSKIPPING FILE!")
+        print("WRONG FILE FORMAT DETECTED!\nSKIPPING FILE!")
         shutil.move(f"{APP_FOLDER}/{img}", f"skipped/{img}")
         skipped += 1
         continue
